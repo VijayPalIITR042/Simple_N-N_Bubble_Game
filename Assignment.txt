@@ -1,0 +1,18 @@
+1) Given MxM grid of cells. (say M=4)
+2) There is a "Start" button.  As soon as user hits the start button below things happen
+3) Color randomly N number of cells (say N=5)
+4) User needs to uncoloured N cells in T secs. (say T=4sec) by clicking on coloured cell.
+5) If user uncoloured all cells in T secs then he wins else give him C chances (say C=3).
+6) In first attempt if user failed to uncoloured 5 cells in 4 sec but rather uncoloured only 3 cells then
+ keep the 2 cells untouched and randomly colours 3 cells so that user will get second attempt again with 5
+ coloured cells to unclear and again 4 sec of time.  User can repeat it C times (i.e. 3 times in this case) 
+else he will lose the game.
+
+
+Things we are looking forward are:
+
+1) Good UI / Intuitive.
+2) Quality Code
+3) Object Oriented Design
+4) Framework use - AngularJS
+5) Try to make it generic game without hard-code values. (Take inputs from users)
